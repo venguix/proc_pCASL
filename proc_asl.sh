@@ -2,7 +2,7 @@
 # Automated ASL Pipeline - Optimized for Single or Multi-Patient Processing
 
 
-# Run: ./proc_asl_adulte_all.sh LAURENCE      or      ./proc_asl_adulte_all.sh
+# Run: ./proc_asl_adulte_all.sh SUBJECT_NAME      or      ./proc_asl_adulte_all.sh
 # --- Fixed Physical Parameters (3T Standard) ---
 PLD=1.8
 BOLUS=1.8
