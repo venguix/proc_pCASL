@@ -7,7 +7,7 @@
 PLD=1.8
 BOLUS=1.8
 TR_M0=10.0
-SLOPE=0.1  # Kept at 1. DICOM slope (0.94) already applied by dcm2niix.
+SLOPE=0.1
 
 # --- Global output file ---
 GLOBAL_SUMMARY="./resumen_cbf_grupal.txt"
