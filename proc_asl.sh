@@ -22,7 +22,7 @@ ASL_IN="pcasl3d_singleTI.nii"
 M0_SEP="pcasl3d_M0.nii"
 T1_RAW="denoised_mp2rage.nii"
 
-# FILTER CONTROL: If an argument is passed (e.g., ./script.sh MEGAN), process only that subject
+# FILTER CONTROL: If an argument is passed (e.g., ./script.sh NAME), process only that subject
 if [ -n "$1" ]; then
     # Strip trailing slashes if the user included them by mistake
     SINGLE_SUBJECT=$(basename "$1")
